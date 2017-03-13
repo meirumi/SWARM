@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+    height: 100%;
+    background-repeat: repeat;
+    /*background-image: linear-gradient(rgb(252, 178, 39), rgb(0, 0, 0));*/
+	background-image: url(https://cloud.githubusercontent.com/assets/18334556/23766572/b4b7f7da-0505-11e7-87f1-30dd91da3e6f.png);
+}
+
+.panel
+{
+	display:block;
+	max-width: 250px;
+	max-height: 550px;
+	background-color: rgb(250,162,8);
+	opacity: 0.8;
+	margin: auto;
+	border-radius: 20px;
+	margin-top: 80px;
+
+}
+
+.panel-primary>.panel-heading
+{
+	background:#C6CC33;
+	height: 40px;
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+
+}
+.panel-primary>.panel-body
+{
+	background-color: rgb(250,162,8);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.form-group
+{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 5px;
+}
+.form-control
+{
+	background-color:  #D8D8D8;
+}
+form
+{
+	padding-bottom: 40px;
+}
+label
+{
+	padding: 10px;
+	width: 350px;
+}
+.btn
+{
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+}
